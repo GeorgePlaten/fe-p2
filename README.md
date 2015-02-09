@@ -1,4 +1,4 @@
-## How did I complete this project?
+## How I completed this project
 
 ### TODO (after P3 is completed)
 1. Review against the Project Rubric.
@@ -7,19 +7,22 @@
 My repository includes the following files from the original fork:
 
 * **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js.
+
 _This file is unchanged from the one supplied by Udacity_.
 * **js/helper.js**: Contains helper code needed to format the resume and build the map.
+
 _I made some minor additions to this file. More on helper.js further down_.
 * **js/resumeBuilder.js**: This is wot I did done.
 * **js/jQuery.js**: The jQuery library.
 * **css/style.css**: Contains all of the CSS needed to style the page.
+
 _This file was far from following the Udacity Style Guide and there wasn't much value in me fixing it. This also discouraged me from really making the resume 'my own'_.
 * **README.md**: This file right here. Markdown. _Why?_
 * and some custom images in the images directory.
 
 My repository also includes:
 
-* **.gitignore**: file
+* **.gitignore**: git file that helps stop me uploading windows Thumbs.db files and other things
 * **js/jqueryui.min.js**: for 'udacious' interactive layout manipulation (accordion effect)
 * **css/jqueryui.min.css**: required by jqueryui
 
@@ -52,38 +55,53 @@ The **bolded** items show additions and / or deviations.
     </ul>
   </li>
   <li>`education` contains:
-
-            schools: array of objects with
-                 name: string
-                 location: string
-                 degree: string
-                 majors: array of strings
-                 dates: integer (graduation date)
-                 url: string
-            onlineCourses: array with
-                 title: string
-                 school: string
-                 date: integer (date finished)
-                 url: string
-            display: function taking no parameters
+    <ul>
+      <li>schools: array of objects with
+        <ul>
+          <li>name: string</li>
+          <li>location: string</li>
+          <li>degree: string</li>
+          <li>majors: array of strings</li>
+          <li>dates: integer (graduation date)</li>
+          <li>url: string</li>
+        </ul>
+      </li>
+      <li>onlineCourses: array with
+        <ul>
+          <li>title: string</li>
+          <li>school: string</li>
+          <li>date: integer (date finished)</li>
+          <li>url: string</li>
+        </ul>
+      </li>
+      <li>display: function taking no parameters</li>
+    </ul>
   </li>
   <li>`work` contains
-
-            jobs: array of objects with
-                 employer: string
-                 title: string
-                 location: string
-                 dates: string (works with a hyphen between them)
-                 description: string
-            display: function taking no parameters
+    <ul>
+      <li>jobs: array of objects with
+        <ul>
+          <li>employer: string</li>
+          <li>title: string</li>
+          <li>location: string</li>
+          <li>dates: string (works with a hyphen between them)</li>
+          <li>description: string</li>
+        </ul>
+      </li>
+      <li>display: function taking no parameters</li>
+    </ul>
   <li>`projects` contains:
-
-            projects: array of objects with
-                  title: string
-                  dates: string (works with a hyphen between them)
-                  description: string
-                  images: **object with string urls and string alt text values**
-            display: function taking no parameters
+    <ul>
+      <li>projects: array of objects with
+        <ul>
+          <li>title: string</li>
+          <li>dates: string (works with a hyphen between them)</li>
+          <li>description: string</li>
+          <li>images: <strong>object with string urls and string alt text values</strong></li>
+        </ul>
+      </li>
+      <li>display: function taking no parameters</li>
+    </ul>
   </li>
 </ul>
 
