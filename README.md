@@ -7,15 +7,12 @@
 My repository includes the following files from the original fork:
 
 * **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js.
-
 _This file is unchanged from the one supplied by Udacity_.
 * **js/helper.js**: Contains helper code needed to format the resume and build the map.
-
 _I made some minor additions to this file. More on helper.js further down_.
 * **js/resumeBuilder.js**: This is wot I did done.
 * **js/jQuery.js**: The jQuery library.
 * **css/style.css**: Contains all of the CSS needed to style the page.
-
 _This file was far from following the Udacity Style Guide and there wasn't much value in me fixing it. This also discouraged me from really making the resume 'my own'_.
 * **README.md**: This file right here. Markdown. _Why?_
 * and some custom images in the images directory.
