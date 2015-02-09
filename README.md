@@ -20,8 +20,8 @@ _This file was far from following the Udacity Style Guide and there wasn't much 
 My repository also includes:
 
 * **.gitignore**: git file that helps stop me uploading windows Thumbs.db files and other things
-* **js/jqueryui.min.js**: for 'udacious' interactive layout manipulation (accordion effect)
-* **css/jqueryui.min.css**: required by jqueryui
+* **js/jquery-ui.min.js**: for 'udacious' interactive layout manipulation (accordion effect)
+* **css/jquery-ui.min.css**: required by jqueryui
 
 ### The process:
 The resume has six distinct sections: work, education, projects, an interactive map, a header with biographical information and a footer with quick contact information.
