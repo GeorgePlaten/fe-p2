@@ -1,17 +1,20 @@
 ## How did I complete this project?
 
 ### TODO (after P3 is completed)
-1. Review your work against the Project Rubric.
+1. Review against the Project Rubric.
 2. Submit it according to the Submission Instructions on the portal.
 
 My repository includes the following files from the original fork:
 
-* **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js. _This file is unchanged from the one supplied by Udacity_.
-* **js/helper.js**: Contains helper code needed to format the resume and build the map. _I made some minor additions to this file. More on helper.js further down_.
+* **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js.
+_This file is unchanged from the one supplied by Udacity_.
+* **js/helper.js**: Contains helper code needed to format the resume and build the map.
+_I made some minor additions to this file. More on helper.js further down_.
 * **js/resumeBuilder.js**: This is wot I did done.
 * **js/jQuery.js**: The jQuery library.
-* **css/style.css**: Contains all of the CSS needed to style the page. This file was far from following the Udacity Style Guide and there wasn't much value in me fixing it. This also discouraged me from really making the resume 'my own'.
-* **README.md**: This file right here. Markdown. Why?
+* **css/style.css**: Contains all of the CSS needed to style the page.
+_This file was far from following the Udacity Style Guide and there wasn't much value in me fixing it. This also discouraged me from really making the resume 'my own'_.
+* **README.md**: This file right here. Markdown. _Why?_
 * and some custom images in the images directory.
 
 My repository also includes:
@@ -28,22 +31,27 @@ The objects I created originall followed the names within the schema below exact
 
 The **bolded** items show additions and / or deviations.
 
-* `bio` contains:
-
-            name : string
-            role : string
-            contacts : an object with
-                  mobile: **object with a string value and string uri**
-                  email: **object with a string value and string uri**
-                  github: **object with a string value and string url**
-                  twitter: **object with a string value and string url**
-                  location: string
-            welcomeMessage: string
-            skills: array of strings
-            biopic: url
-            display: function taking no parameters
-
-* `education` contains:
+<ul>
+  <li>`bio` contains:
+    <ul>
+      <li>name : string</li>
+      <li>role : string</li>
+      <li>contacts : an object with
+        <ul>
+          <li>mobile: <strong>object with a string value and string uri</strong></li>
+          <li>email: <strong>object with a string value and string uri</strong></li>
+          <li>github: <strong>object with a string value and string url</strong></li>
+          <li>twitter: <strong>object with a string value and string url</strong></li>
+          <li>location: string</li>
+        </ul>
+      </li>
+      <li>welcomeMessage: string</li>
+      <li>skills: array of strings</li>
+      <li>biopic: url</li>
+      <li>display: function taking no parameters</li>
+    </ul>
+  </li>
+  <li>`education` contains:
 
             schools: array of objects with
                  name: string
@@ -58,8 +66,8 @@ The **bolded** items show additions and / or deviations.
                  date: integer (date finished)
                  url: string
             display: function taking no parameters
-
-* `work` contains
+  </li>
+  <li>`work` contains
 
             jobs: array of objects with
                  employer: string
@@ -68,8 +76,7 @@ The **bolded** items show additions and / or deviations.
                  dates: string (works with a hyphen between them)
                  description: string
             display: function taking no parameters
-
-* `projects` contains:
+  <li>`projects` contains:
 
             projects: array of objects with
                   title: string
@@ -77,6 +84,8 @@ The **bolded** items show additions and / or deviations.
                   description: string
                   images: **object with string urls and string alt text values**
             display: function taking no parameters
+  </li>
+</ul>
 
 2. I added the code and content as per the course materials.
 3. The resume includes an interactive map. To add it, I appended the googleMap string to `<div id=”mapDiv”>`. I then found some functionality in the Google Maps online documentation and add some basic info the the place markers when clicked on.
