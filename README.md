@@ -1,5 +1,7 @@
 ## How I completed this project
 
+An alternate <a href="http://georgeplaten.github.io/fe-p2/resume/">live version of the completed resume can be viewed here</a>.
+
 ### TODO (after P3 is completed)
 1. Review against the Project Rubric.
 2. Submit it according to the Submission Instructions on the portal.
