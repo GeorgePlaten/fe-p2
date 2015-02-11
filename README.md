@@ -11,7 +11,7 @@ My repository includes the following files from the original fork:
 * **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js.
 _This file is unchanged from the one supplied by Udacity_.
 * **js/helper.js**: Contains helper code needed to format the resume and build the map.
-_I made some minor additions to this file. More on helper.js further down_.
+_I made a minor addition to this file. More on helper.js further down_.
 * **js/resumeBuilder.js**: This is wot I did done.
 * **js/jQuery.js**: The jQuery library.
 * **css/style.css**: Contains all of the CSS needed to style the page.
@@ -29,7 +29,7 @@ My repository also includes:
 The resume has six distinct sections: work, education, projects, an interactive map, a header with biographical information and a footer with quick contact information.
 
 1. All section draw their data from four JSON-like objects, containing work, biography, education and projects information. The objects also contain a method to write that data to the page.
-The objects I created originall followed the names within the schema below exactly. And they were confirmed to be formatted correctly with <a href="http://jsonlint.com/" target="_blank">JSONlint.com</a>. However, once the display methods were included, they were no longer valid JSONs. There are some further additions made to the schema based on making the resume 'udacious' and adding standard functionality such as contact details with clickable links. e.g. twitter address will link to a twitter profile. This was also suggested by an instructor on the Piazza forums, I think.
+The objects I created follow the names within the schema below exactly, but not the values. They were confirmed to be formatted correctly with <a href="http://jsonlint.com/" target="_blank">JSONlint.com</a>. There are some additions made to the object based on adding standard functionality such as alt attributes for images.
 The **bolded** items show additions and / or deviations.
   <ul>
     <li>`bio` contains:
@@ -38,10 +38,10 @@ The **bolded** items show additions and / or deviations.
         <li>role : string</li>
         <li>contacts : an object with
           <ul>
-            <li>mobile: <strong>object with a string value and string uri</strong></li>
-            <li>email: <strong>object with a string value and string uri</strong></li>
-            <li>github: <strong>object with a string value and string url</strong></li>
-            <li>twitter: <strong>object with a string value and string url</strong></li>
+            <li>mobile: string</li>
+            <li>email: string</li>
+            <li>github: string</li>
+            <li>twitter: string</li>
             <li>location: string</li>
           </ul>
         </li>
@@ -102,5 +102,5 @@ The **bolded** items show additions and / or deviations.
     </li>
   </ul>
 2. I added the code and content as per the course materials.
-3. The resume includes an interactive map. To add it, I appended the googleMap string to `<div id=”mapDiv”>`. I then found some functionality in the Google Maps online documentation and add some basic info the the place markers when clicked on.
+3. The resume includes an interactive map. I then found some functionality in the Google Maps online documentation and added some basic info the the place markers when clicked on.
 4. My resume also includes `console.log()` information about click locations. I made a small easter egg addition to this function by adding some code to the helper.js file to hopefully help alleviate some boredom for the marking turks at Udacity (if there are any!).
