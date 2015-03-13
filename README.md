@@ -13,7 +13,7 @@ _I made a minor addition to this file. More on helper.js further down_.
 * **css/style.css**: Contains all of the CSS needed to style the page.
 _This file was far from following the Udacity Style Guide and there wasn't much value in me fixing it. This also discouraged me from really making the resume 'my own'_.
 * **README.md**: This file right here. Markdown. I thought _people believe John_
-* **resources.txt**: A stripped down version of <a href="http://georgeplaten.github.io/fe-p2/resources.html">resources_notes.html</a>.
+* **resources.txt**: A stripped down version of <a href="http://georgeplaten.github.io/fe-p2/resources.html">resources.html</a>.
 * and some custom images in the images directory.
 
 My repository also includes:
