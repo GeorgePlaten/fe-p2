@@ -2,10 +2,6 @@
 
 An alternate <a href="http://georgeplaten.github.io/fe-p2/resume/">live version of the completed resume can be viewed here</a>.
 
-### TODO (after P3 is completed)
-1. Review against the Project Rubric.
-2. Submit it according to the Submission Instructions on the portal.
-
 My repository includes the following files from the original fork:
 
 * **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js.
@@ -16,7 +12,8 @@ _I made a minor addition to this file. More on helper.js further down_.
 * **js/jQuery.js**: The jQuery library.
 * **css/style.css**: Contains all of the CSS needed to style the page.
 _This file was far from following the Udacity Style Guide and there wasn't much value in me fixing it. This also discouraged me from really making the resume 'my own'_.
-* **README.md**: This file right here. Markdown. _Why?_
+* **README.md**: This file right here. Markdown. I thought _people believe John_
+* **resources.txt**: A stripped down version of <a href="http://georgeplaten.github.io/fe-p2/resources.html">resources_notes.html</a>.
 * and some custom images in the images directory.
 
 My repository also includes:
@@ -103,4 +100,4 @@ The **bolded** items show additions and / or deviations.
   </ul>
 2. I added the code and content as per the course materials.
 3. The resume includes an interactive map. I then found some functionality in the Google Maps online documentation and added some basic info the the place markers when clicked on.
-4. My resume also includes `console.log()` information about click locations. I made a small easter egg addition to this function by adding some code to the helper.js file to hopefully help alleviate some boredom for the marking turks at Udacity (if there are any!).
+4. My resume also includes `console.log()` information about click locations. I made a small easter egg addition to this function by adding some code to the helper.js file to hopefully help alleviate some boredom for the markers at Udacity.
